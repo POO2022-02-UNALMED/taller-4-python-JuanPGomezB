@@ -18,7 +18,6 @@ if __name__ == "__main__":
     grupo3.agregarAlumno("Kelly")
     grupo4.agregarAlumno("Santiago", ["Jaime", "Pedro"])
     grupo5.agregarAlumno("Javier")
-
     print(grupo3.listadoAlumnos) #['Kelly']
     print(grupo4.listadoAlumnos) #['Jaime', 'Pedro', 'Santiago']
     print(grupo5.listadoAlumnos) #['Javier']
